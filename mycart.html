@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8">  
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>My Cart</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="/images/favicon.ico">
 </head>
 <body>
+    <!-- in CSS dont forget to set on nav ul{list-style-type:none} for aesthetic -->
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -17,7 +19,36 @@
         </ul>
     </nav>
     
-    <h1>PLACEHOLDER HEADER</h1>
+    <h1>My Cart</h1>
+    <!-- Code for my styling on cart was as follows:
+    style="display: flex; flex-direction: column;"
+ -->
+    <div class="cart">
+        <div class="cartitem">
+            <!-- Added inline styling to <img> tags below:
+            style="width: auto; height: 10em;"
+         -->
+            <img src="/images/placeholder-image.jpg">
+            <p style="font-weight: bolder;">$29.99</p>
+            <p>Product name and description</p>
+            <button>Remove From Cart</button>
+        </div>
+
+        <div class="cartitem">
+            <img src="/images/placeholder-image.jpg">
+            <p style="font-weight: bolder;">$29.99</p>
+            <p>Product name and description</p>
+            <button>Remove From Cart</button>
+        </div>
+
+        <div class="cartitem">
+            <img src="/images/placeholder-image.jpg">
+            <p style="font-weight: bolder;">$29.99</p>
+            <p>Product name and description</p>
+            <button>Remove From Cart</button>
+        </div>
+
+    </div>
 
     <footer>&copy CodeMasterFlex 2024</footer>
 </body>
