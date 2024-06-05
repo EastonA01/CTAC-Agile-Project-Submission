@@ -21,7 +21,12 @@
 
     <form>
         <div>
-            <div>Full Name:</div>
+            <div>Thomas Mulligan:</div>
+            <input type="text" name="fullname">
+        </div>
+
+        <div>
+            <div>Last Name:</div>
             <input type="text" name="fullname">
         </div>
         
@@ -39,6 +44,24 @@
             <div>Credit Card Number:</div>
             <input type="text" name="creditcard">
         </div>
+
+        <div>
+            <div>Expiry Date:</div>
+            <input type="text" name="expiry">
+        </div>
+        <div>
+            <div>CVV:</div>
+            <input type="text" name="cvv">
+        </div>
+
+        <div>
+            <div>Shipping Method:</div>
+            <select name="shipping">
+                <option value="standard">Standard Shipping (5-8 days)</option>
+                <option value="express">Express Shipping (1-2 days)</option>
+            </select>
+        </div>
+<button type="submit">Confirm Order</button>
     <footer>&copy CodeMasterFlex 2024</footer>
 </body>
 </html>
