@@ -36,7 +36,7 @@ header {
     display: flex;
     justify-content: flex-end; 
     font-style: italic;
-    font-size: 1.3em;
+    font-size: 20px;
 }
 .list {
     padding: 2em;
@@ -59,7 +59,8 @@ h4 {
     border-style: solid;
     border-color: black;
     border-width: 1px;
-    box-shadow: 5px 10px #A3b18A;
+    box-shadow: 5px 10px #588157;
+    background-color: #A3b18A;
     padding: 30px;  
     margin-top: 10px;
     margin-bottom: 20px;
