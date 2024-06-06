@@ -2,10 +2,13 @@
 body { 
     width: 100vw;
     height: 100vh;
+    background-color: #DAD7cd;
 }
 .body-content {
+    display: flex;
+    flex-direction: column;
     margin: 20px;
-    text-align: center;
+   
 }
 header {
     display: flex;
@@ -14,9 +17,9 @@ header {
     justify-content: space-between;
 }
 .cactus-logo {
-    max-width: 125px;
+    max-width: 100px;
 }
-
+/* Navbar Image OF cart */
 .cartimg {
     max-width: 1.5em;
 }
@@ -26,6 +29,7 @@ header {
     flex-direction: column;
     justify-content: center;
 }
+/* Sizing for images INSIDE cart class */
 .cart img{
     width: 15em;
 }
@@ -33,14 +37,36 @@ header {
 .nav-list {
     display: flex;
     justify-content: flex-end; 
-    
+    font-style: italic;
 }
 .list {
     padding: 2em;
 }
 h2 {
     text-align: center;
+    color: #3A5A40;
 }
+h3 {
+    color: #3A5A40;
+}
+
+.product-card {
+    border-style: solid;
+    border-color: black;
+    box-shadow: #344e41;
+    padding: 2em;  
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.product-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+/* .cart {
+   
+} */
 form {
  text-align: center;
  padding: 1em;   
@@ -54,12 +80,22 @@ padding:1em;
 } 
 footer {
     padding: 1em;
+    text-align: center;
 }
   /* Added Reusable Drop Shadow Styling */
-  .hovernow {
+.hovernow {
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
     transition: box-shadow 0.3s ease-in-out;
-  }
-  .hovernow:hover {
+}
+.hovernow:hover {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+}
+
+ /* Text Hover Magic */
+ .texthover{
+    opacity: 1;
+    transition: opacity .5s ease-in-out;
+  }
+  .texthover:hover{
+    opacity: .5;
   }
