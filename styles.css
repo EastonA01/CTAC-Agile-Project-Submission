@@ -2,6 +2,7 @@
 body { 
     width: 100vw;
     height: 100vh;
+    background-color: #DAD7cd;
 }
 .body-content {
     margin: 20px;
@@ -14,13 +15,13 @@ header {
     justify-content: space-between;
 }
 .cactus-logo {
-    max-width: 125px;
+    max-width: 100px;
 }
 
 .nav-list {
     display: flex;
     justify-content: flex-end; 
-    
+    font-style: italic;
 }
 .list {
     padding: 2em;
