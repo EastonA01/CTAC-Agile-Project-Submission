@@ -1,0 +1,35 @@
+
+body { 
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.body-content {
+    margin: 30px;
+}
+header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.logo {
+    max-width: 150px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end; 
+    
+}
+.list {
+    padding: 1em;
+}
+h2 {
+    text-align: center;
+}
+form {
+ text-align: center;   
+}
+footer {
+    padding: 2em;
+}
