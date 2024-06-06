@@ -4,21 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product1</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="productlisting.html">Products</a></li>
-            <!-- Below is a placeholder link, in case we want to make the shopping cart an image
-            rather than text -->
-            <li><a href="">My Shopping Cart</a></li>
-        </ul>
-    </nav>
+    <header>
+        <h1 class="H1">
+            <img class="cactus-logo " src="../images/cactus.jpeg" alt="cactus logo."></h1>
+            <nav>
+                <div class="nav-list">
+                    <a class="list" href="index.html">Home</a>
+                    <a class="list" href="productlisting.html">Products</a>
+                    <a class="list" href="mycart.html"><img src="../images/Cart.png" class="cartimg"></a>
+                </div>
+            </nav>
+    </header>
     
-    <h1>PLACEHOLDER HEADER</h1>
+    <h2>PLACEHOLDER HEADER</h2>
+
     <!-- div styling
     style="display: flex; flex-direction: column; justify-content: center;"
     -->
@@ -26,10 +28,14 @@
         <!-- Inline styling for <img> in here was as follows- dont need to use it but want to offer
          style="width:50%; transform: translate(50%, 0);"
         -->
-        <img src="/images/placeholder-image.jpg" style="width:50%; transform: translate(50%, 0);">
-            <p class="price" style="font-weight: bolder;">$29.99</p>
-            <p class="productName">Product name and description</p>
-            <button class="button">Add to Cart</button>
+        
+    <div class="productContainer">
+        <img src="../images/placeholder-image.jpg" class="hovernow">
+        <p class="price">$29.99</p>
+        <p class="productName">Product Name and Description</p>
+        <p class="productStock">In Stock: 10</p>
+        <button class="button">Add to Cart</button>
+    </div>
     </div>
 
     <footer>&copy CodeMasterFlex 2024</footer>
