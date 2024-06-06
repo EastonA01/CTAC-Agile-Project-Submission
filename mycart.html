@@ -14,17 +14,20 @@
             src="images/cactus.jpeg" 
             alt="cactus logo.">
         </h1>
+        <h1 class="H1">
+            STIEGLER EDTECH
+        </h1>
         <nav>
-            <div class="nav-list">
+            <div class="nav-list"  style="background-color: #C8C4B6;">
                 <a class="list texthover" href="index.html">Home</a>
-                <a class="list" href="productlisting.html">Products</a>
+                <a class="list texthover" href="productlisting.html">Products</a>
                 <a class="list" href="#"><img src="/images/Cart.png" class="cartimg"></a>
             </div>
         </nav>
     </header>
     
     <h2>My Cart</h2>
-    <div class="cart">
+    <!-- <div class="cart">
         <div class="cartitem">
             <img src="/images/fern.jpg" class="hovernow">
             <p style="font-weight: bolder;">$29.99</p>
@@ -45,7 +48,38 @@
             <p>Peace Lily</p>
             <button>Remove From Cart</button>
         </div>
-    </div>
+    </div> -->
+
+    <table>
+        <!-- <tr>
+            <td>Cart</td>
+            <td>Item</td>
+            <td>Price</td>
+            <td class="tablenone"></td>
+        </tr> -->
+        <tr>
+            <td><img src="/images/fern.jpg" class="hovernow"></td>
+            <td>Fern</td>
+            <td style="font-weight: bolder;">$29.99</td>
+            <td class="tablenone"><button>Remove From Cart</button></td>
+        </tr>
+        <tr>
+            <td><img src="/images/monstera.jpg"  class="hovernow"></td>
+            <td>Monstera</td>
+            <td style="font-weight: bolder;">$29.99</td>
+            <td class="tablenone"><button>Remove From Cart</button></td>
+        </tr>
+        <tr>
+            <td><img src="/images/peacelily.jpg"  class="hovernow"></td>
+            <td>Peace Lily</td>
+            <td style="font-weight: bolder;"> $29.99</td>
+            <td class="tablenone"><button>Remove From Cart</button></td>
+        </tr>
+
+    </table>
+
+
+
     <p>Find everything you wanted?</p>
     <button><a href="checkout.html">Checkout</a></button>
     <footer>&copy CodeMasterFlex 2024</footer>

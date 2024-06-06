@@ -41,6 +41,10 @@ header {
 }
 .list {
     padding: 2em;
+    color: #3A5A40;
+}
+.H1{
+    color:#3A5A40
 }
 h2 {
     text-align: center;
@@ -64,9 +68,13 @@ h3 {
     justify-content: space-around;
 
 }
-/* .cart {
-   
-} */
+table,th,td {
+    border: 1px solid black;
+    /* flex-direction:row-reverse; */
+}
+.tablenone{
+    border:none;
+}
 form {
  text-align: center;
  padding: 1em;   
