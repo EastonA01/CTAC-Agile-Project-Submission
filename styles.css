@@ -5,10 +5,8 @@ body {
     background-color: #DAD7cd;
 }
 .body-content {
-    display: flex;
-    flex-direction: column;
     margin: 20px;
-   
+    text-align: center;
 }
 header {
     display: flex;
@@ -68,9 +66,7 @@ h4 {
     justify-content: space-around;
 
 }
-.cart {
-   
-}
+
 form {
  text-align: center;
  padding: 1em;   
