@@ -11,6 +11,7 @@ header {
     display: flex;
     align-items: center;
     width: 100%;
+    justify-content: space-between;
 }
 .cactus-logo {
     max-width: 125px;
@@ -22,18 +23,22 @@ header {
     
 }
 .list {
-    padding: 1em;
+    padding: 2em;
 }
 h2 {
     text-align: center;
 }
 form {
- text-align: center;   
+ text-align: center;
+ padding: 1em;   
 }
 button {
     padding: 1em;
-    margin: 20px;
+    margin: 30px;
 }
+#shipping {
+padding:1em;
+} 
 footer {
     padding: 1em;
 }
