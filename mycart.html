@@ -8,48 +8,46 @@
     <link rel="icon" href="/images/favicon.ico">
 </head>
 <body>
-    <!-- in CSS dont forget to set on nav ul{list-style-type:none} for aesthetic -->
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="productlisting.html">Products</a></li>
-            <!-- Below is a placeholder link, in case we want to make the shopping cart an image
-            rather than text -->
-            <li><a href="#">My Shopping Cart</a></li>
-        </ul>
-    </nav>
+    <header>
+        <h1 class="H1"> 
+            <img class="cactus-logo"
+            src="images/cactus.jpeg" 
+            alt="cactus logo.">
+        </h1>
+        <nav>
+            <div class="nav-list">
+                <a class="list" href="index.html">Home</a>
+                <a class="list" href="productlisting.html">Products</a>
+                <a class="list" href="#"><img src="/images/Cart.png" class="cartimg"></a>
+            </div>
+        </nav>
+    </header>
     
     <h1>My Cart</h1>
-    <!-- Code for my styling on cart was as follows:
-    style="display: flex; flex-direction: column;"
- -->
     <div class="cart">
         <div class="cartitem">
-            <!-- Added inline styling to <img> tags below:
-            style="width: auto; height: 10em;"
-         -->
-            <img src="/images/placeholder-image.jpg">
+            <img src="/images/placeholder-image.jpg" class="hovernow">
             <p style="font-weight: bolder;">$29.99</p>
             <p>Product name and description</p>
             <button>Remove From Cart</button>
         </div>
 
         <div class="cartitem">
-            <img src="/images/placeholder-image.jpg">
+            <img src="/images/placeholder-image.jpg"  class="hovernow">
             <p style="font-weight: bolder;">$29.99</p>
             <p>Product name and description</p>
             <button>Remove From Cart</button>
         </div>
 
         <div class="cartitem">
-            <img src="/images/placeholder-image.jpg">
+            <img src="/images/placeholder-image.jpg"  class="hovernow">
             <p style="font-weight: bolder;">$29.99</p>
             <p>Product name and description</p>
             <button>Remove From Cart</button>
         </div>
-
     </div>
-
+    <p>Find everything you wanted?</p>
+    <button><a href="checkout.html">Checkout</a></button>
     <footer>&copy CodeMasterFlex 2024</footer>
 </body>
 </html>
