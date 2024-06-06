@@ -5,10 +5,9 @@ body {
     background-color: #DAD7cd;
 }
 .body-content {
-    display: flex;
-    flex-direction: column;
-    margin: 20px;
-   
+    margin: 25px;
+    text-align: center;
+    font-size: 1.3em;
 }
 header {
     display: flex;
@@ -33,47 +32,43 @@ header {
 .cart img{
     width: 15em;
 }
-
 .nav-list {
     display: flex;
     justify-content: flex-end; 
     font-style: italic;
+    font-size: 1.3em;
 }
 .list {
     padding: 2em;
-    color: #3A5A40;
-}
-.H1{
-    color:#3A5A40
+    text-decoration: none;
 }
 h2 {
     text-align: center;
-    color: #3A5A40;
+    color: #344e41;
+    padding: 10px;
 }
 h3 {
-    color: #3A5A40;
+    color:  #3A5A40;
+    text-decoration: none;
+}
+h4 {
+    color: #344e41;
 }
 
 .product-card {
     border-style: solid;
     border-color: black;
-    box-shadow: #344e41;
-    padding: 2em;  
+    border-width: 1px;
+    box-shadow: 5px 10px #A3b18A;
+    padding: 30px;  
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .product-row {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 
-}
-table,th,td {
-    border: 1px solid black;
-    /* flex-direction:row-reverse; */
-}
-.tablenone{
-    border:none;
 }
 form {
  text-align: center;
@@ -86,6 +81,16 @@ button {
 #shipping {
 padding:1em;
 } 
+#big-image {
+   width: 100%; 
+}
+.small-image-1 {
+    margin-left: 20px;
+}
+.small-image-2 {
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
 footer {
     padding: 1em;
     text-align: center;
@@ -103,6 +108,8 @@ footer {
  .texthover{
     opacity: 1;
     transition: opacity .5s ease-in-out;
+    color:  #3A5A40;
+    text-decoration: none;
   }
   .texthover:hover{
     opacity: .5;
