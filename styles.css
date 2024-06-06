@@ -5,9 +5,10 @@ body {
     background-color: #DAD7cd;
 }
 .body-content {
+    display: flex;
+    flex-direction: column;
     margin: 20px;
-    text-align: center;
-    height: 100vh;
+   
 }
 header {
     display: flex;
@@ -47,17 +48,23 @@ h2 {
 h3 {
     color: #3A5A40;
 }
-.product-listing {
-    display: flex;
-    justify-content: space-between;
 
-}
 .product-card {
     border-style: solid;
     border-color: black;
     box-shadow: #344e41;
     padding: 2em;  
-    
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.product-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.cart {
+   
 }
 form {
  text-align: center;
