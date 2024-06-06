@@ -7,6 +7,7 @@ body {
 .body-content {
     margin: 20px;
     text-align: center;
+    height: 100vh;
 }
 header {
     display: flex;
@@ -71,6 +72,7 @@ padding:1em;
 } 
 footer {
     padding: 1em;
+    text-align: center;
 }
   /* Added Reusable Drop Shadow Styling */
   .hovernow {
