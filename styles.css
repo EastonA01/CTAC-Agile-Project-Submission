@@ -18,6 +18,19 @@ header {
     max-width: 100px;
 }
 
+.cartimg {
+    max-width: 1.5em;
+}
+/* Styling for cart */
+.cart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cart img{
+    width: 15em;
+}
+
 .nav-list {
     display: flex;
     justify-content: flex-end; 
@@ -43,3 +56,11 @@ padding:1em;
 footer {
     padding: 1em;
 }
+  /* Added Reusable Drop Shadow Styling */
+  .hovernow {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  .hovernow:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+  }
