@@ -5,8 +5,9 @@ body {
     background-color: #DAD7cd;
 }
 .body-content {
-    margin: 20px;
+    margin: 25px;
     text-align: center;
+    font-size: 1.3em;
 }
 header {
     display: flex;
@@ -31,11 +32,11 @@ header {
 .cart img{
     width: 15em;
 }
-
 .nav-list {
     display: flex;
     justify-content: flex-end; 
     font-style: italic;
+    font-size: 1.3em;
 }
 .list {
     padding: 2em;
@@ -48,6 +49,7 @@ h2 {
 }
 h3 {
     color:  #3A5A40;
+    text-decoration: none;
 }
 h4 {
     color: #344e41;
@@ -58,7 +60,7 @@ h4 {
     border-color: black;
     border-width: 1px;
     box-shadow: 5px 10px #A3b18A;
-    padding: 3em;  
+    padding: 30px;  
     margin-top: 10px;
     margin-bottom: 20px;
 }
@@ -79,6 +81,16 @@ button {
 #shipping {
 padding:1em;
 } 
+#big-image {
+   width: 100%; 
+}
+.small-image-1 {
+    margin-left: 20px;
+}
+.small-image-2 {
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
 footer {
     padding: 1em;
     text-align: center;
@@ -96,6 +108,8 @@ footer {
  .texthover{
     opacity: 1;
     transition: opacity .5s ease-in-out;
+    color:  #3A5A40;
+    text-decoration: none;
   }
   .texthover:hover{
     opacity: .5;
