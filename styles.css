@@ -1,19 +1,19 @@
 
 body { 
-    margin: 0;
     width: 100vw;
     height: 100vh;
 }
 .body-content {
-    margin: 30px;
+    margin: 20px;
+    text-align: center;
 }
 header {
     display: flex;
     align-items: center;
     width: 100%;
 }
-.logo {
-    max-width: 150px;
+.cactus-logo {
+    max-width: 125px;
 }
 
 .nav-list {
@@ -30,6 +30,10 @@ h2 {
 form {
  text-align: center;   
 }
+button {
+    padding: 1em;
+    margin: 20px;
+}
 footer {
-    padding: 2em;
+    padding: 1em;
 }
