@@ -1,0 +1,44 @@
+
+body { 
+    width: 100vw;
+    height: 100vh;
+}
+.body-content {
+    margin: 20px;
+    text-align: center;
+}
+header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.cactus-logo {
+    max-width: 125px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end; 
+    
+}
+.list {
+    padding: 2em;
+}
+h2 {
+    text-align: center;
+}
+form {
+ text-align: center;
+ padding: 1em;   
+}
+button {
+    padding: 1em;
+    margin: 30px;
+}
+#shipping {
+padding:1em;
+} 
+footer {
+    padding: 1em;
+}
