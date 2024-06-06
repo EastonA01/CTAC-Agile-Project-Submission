@@ -7,18 +7,83 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="productlisting.html">Products</a></li>
-            <!-- Below is a placeholder link, in case we want to make the shopping cart an image
-            rather than text -->
-            <li><a href="">My Shopping Cart</a></li>
-        </ul>
-    </nav>
+    <div class="body-content">
+        <header>
+            <h1 class="H1"> 
+                <img class="cactus-logo"
+                src="images/cactus.jpeg" 
+                alt="cactus logo.">
+            </h1>
+            <nav>
+                <div class="nav-list">
+                    <a class="list" href="index.html">Home</a>
+                    <a class="list" href="productlisting.html">Products</a>
+                    <!-- Below is a placeholder link, in case we want to make the shopping cart an image
+                rather than text -->
+                    <a class="list" href="">My Shopping Cart</a>
+                </div>
+            </nav>
+        </header>
     
-    <h1>PLACEHOLDER HEADER</h1>
+    
+        <h2>Checkout</h2>
+    
+        <form>
+            <div>
+                <div>First Name:</div>
+                <input type="text" name="fullname">
+            </div>
 
-    <footer>&copy CodeMasterFlex 2024</footer>
+            <div>
+                <div>Last Name:</div>
+                <input type="text" name="fullname">
+            </div>
+        
+            <div>
+                <div>Email:</div>
+                <input type="email" name="email">
+            </div>
+
+            <div>
+                <div>Phone Number:</div>
+                <input type="phonenumber" name="phonenumber">
+            </div>
+        
+            <div>
+                <div>Address:</div>
+                <textarea name="address"></textarea>
+            </div>
+            <div>
+                <div>Zip Code:</div>
+                <input type="text" name="zipcode">
+            </div>
+        
+            <div>
+                <div>Credit Card Number:</div>
+                <input type="text" name="creditcard">
+            </div>
+
+            <div>
+                <div>Expiry Date:</div>
+                <input type="text" name="expiry">
+            </div>
+            <div>
+                <div>CVV:</div>
+                <input type="text" name="cvv">
+            </div>
+
+            <div>
+                <div id="shipping"> Shipping Method:</div>
+                    <select name="shipping">
+                        <option value="standard">Standard Shipping (5-8 days)</option>
+                        <option value="express">Express Shipping (1-2 days)</option>
+                    </select>
+            </div>
+        </form>
+
+        <button type="submit">Confirm Order</button>
+
+        <footer>&copy CodeMasterFlex 2024</footer>
+    </div> 
 </body>
 </html>
