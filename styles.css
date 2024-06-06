@@ -26,8 +26,8 @@ header {
 /* Styling for cart */
 .cart{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 /* Sizing for images INSIDE cart class */
 .cart img{
