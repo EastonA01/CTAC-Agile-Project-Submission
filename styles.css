@@ -41,6 +41,22 @@ header {
 }
 h2 {
     text-align: center;
+    color: #3A5A40;
+}
+h3 {
+    color: #3A5A40;
+}
+.product-listing {
+    display: flex;
+    justify-content: space-between;
+
+}
+.product-card {
+    border-style: solid;
+    border-color: black;
+    box-shadow: #344e41;
+    padding: 2em;  
+    
 }
 form {
  text-align: center;
