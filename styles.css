@@ -17,9 +17,8 @@ header {
     width: 100%;
     justify-content: space-between;
     border-bottom: solid;
-    border-bottom-width: 5px;
+    border-bottom-width: 3px;
     border-bottom-color: #344e41;
-    
     box-sizing: border-box;
 }
 .cactus-logo {
@@ -41,10 +40,9 @@ header {
     width: 15em;
 }
 .nav-list {
-    display: flex;
-    justify-content: flex-end; 
+    display: flex;  
     font-style: italic;
-    font-size: 30px;
+    font-size: 25px;
     box-sizing: border-box;
 }
 .list {
