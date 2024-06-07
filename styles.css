@@ -89,7 +89,7 @@ form {
  padding: 1em;   
 }
 button {
-    padding: 1em;
+    padding: 20px;
     margin: 30px;
 }
 #shipping {
@@ -170,11 +170,7 @@ footer {
     height: auto;
 }
 
-#checkoutALL form{
-    display: flex;
-    flex-direction: column;
-    
-}
+
 
 /* Fade In and Out Animation */
 @keyframes fadeinout {
