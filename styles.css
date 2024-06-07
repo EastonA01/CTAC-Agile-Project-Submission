@@ -3,17 +3,20 @@ body {
     width: 100vw;
     height: 100vh;
     background-color: #DAD7cd;
+    overflow-x: hidden;
 }
 .body-content {
     margin: 25px;
     text-align: center;
     font-size: 1.3em;
+    box-sizing: border-box;
 }
 header {
     display: flex;
     align-items: center;
     width: 100%;
     justify-content: space-between;
+    box-sizing: border-box;
 }
 .cactus-logo {
     max-width: 100px;
@@ -25,8 +28,9 @@ header {
 /* Styling for cart */
 .cart{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    box-sizing: border-box;
 }
 /* Sizing for images INSIDE cart class */
 .cart img{
@@ -37,6 +41,7 @@ header {
     justify-content: flex-end; 
     font-style: italic;
     font-size: 30px;
+    box-sizing: border-box;
 }
 .list {
     padding: 2em;
@@ -46,6 +51,7 @@ h2 {
     text-align: center;
     color: #344e41;
     padding: 10px;
+    box-sizing: border-box;
 }
 h3 {
     color:  #3A5A40;
@@ -64,11 +70,13 @@ h4 {
     padding: 30px;  
     margin-top: 10px;
     margin-bottom: 20px;
+    box-sizing: border-box;
 }
 .product-row {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    box-sizing: border-box;
 
 }
 form {
@@ -81,6 +89,7 @@ button {
 }
 #shipping {
 padding:1em;
+box-sizing: border-box;
 } 
 #big-image {
    width: 100%; 
@@ -95,6 +104,7 @@ padding:1em;
 footer {
     padding: 1em;
     text-align: center;
+    box-sizing: border-box;
 }
   /* Added Reusable Drop Shadow Styling */
 .hovernow {
@@ -115,3 +125,91 @@ footer {
   .texthover:hover{
     opacity: .5;
   }
+
+  /* Splash Screen Styling */
+#splash-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    animation: fadeinout 3s ease-in-out forwards;
+}
+
+#splash-screen img {
+    max-width: 80%;
+    height: auto;
+}
+
+/* Fade In and Out Animation */
+@keyframes fadeinout {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+  /* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+        margin:0
+    }
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nav-list {
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 20px;
+    }
+    .list {
+        padding: 1em 0;
+    }
+    .hero h1 {
+        font-size: 32px;
+    }
+    .hero p {
+        font-size: 16px;
+    }
+    .cart {
+        flex-direction: column;
+        align-items: center;
+    }
+    .cart img {
+        width: 10em;
+    }
+    .product-row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .product-card {
+        width: 90%;
+    }
+    .body-content {
+        margin: 10px;
+        font-size: 1em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    h3 {
+        font-size: 1.2em;
+    }
+    h4 {
+        font-size: 1em;
+    }
+    button {
+        width: 100%;
+        padding: 0.5em;
+        margin: 10px 0;
+    }
+    footer {
+        font-size: 0.8em;
+    }
+}

@@ -32,6 +32,9 @@
     </style>
 </head>
 <body>
+    <div id="splash-screen">
+        <img src="images/cactus.jpeg" alt="Splash Screen Image">
+    </div>
     <div class="body-content">
         <header>
             <h1 class="H1"> 
@@ -52,7 +55,7 @@
         </header>
 
         <div class="hero">
-            <h2>Welcome to Our Botanical Wonderland</h2>
+            <h2 style="background-color: #DAD7cd;">Welcome to Our Botanical Wonderland</h2>
             <p>Discover a Green Oasis with Our Exclusive $29.99 Sale</p>
         </div>
       
@@ -71,5 +74,12 @@
         </p>
     </div>
     <footer>&copy CodeMasterFlex 2024</footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            setTimeout(function() {
+                document.getElementById("splash-screen").style.display = 'none';
+            }, 3000); // Hide splash screen after 3 seconds
+        });
+    </script>
 </body>
 </html>
