@@ -14,6 +14,10 @@ header {
     align-items: center;
     width: 100%;
     justify-content: space-between;
+    border-bottom: solid;
+    border-bottom-width: 5px;
+    border-bottom-color: #344e41;
+    
 }
 .cactus-logo {
     max-width: 100px;
@@ -41,6 +45,10 @@ header {
 .list {
     padding: 2em;
     text-decoration: none;
+}
+h1 {
+    color: #344e41;  
+    font-size: 30px;
 }
 h2 {
     text-align: center;
