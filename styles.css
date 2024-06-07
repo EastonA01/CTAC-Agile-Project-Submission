@@ -152,6 +152,31 @@ footer {
     height: auto;
 }
 
+#checkoutcart{
+    /* size:10em; */
+    /* flex-direction: column; */
+    flex-flow: row;
+    /* float: left; */
+    /* align-items: center; */
+
+}
+#checkoutcart .product-card{
+    padding: 0;
+    width:10%;
+    flex-direction: row;
+    
+}
+#checkoutcart img{
+    width: 50%;
+    height: auto;
+}
+
+#checkoutALL form{
+    display: flex;
+    flex-direction: column;
+    
+}
+
 /* Fade In and Out Animation */
 @keyframes fadeinout {
     0% { opacity: 0; }
